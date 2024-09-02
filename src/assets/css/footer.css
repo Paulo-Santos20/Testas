@@ -24,6 +24,13 @@
   color: white;
   border-radius: 20px;
 }
+.error-message {
+  color: red;
+  display: none;
+  margin-top: 5px;
+  font-size: 14px; /* Ajuste conforme necessário */
+  line-height: 1.5;
+}
 .left-content p {
   font-family: "Integral CF";
   font-size: 40px;
@@ -52,6 +59,8 @@
 .input-wrapper {
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: center; 
 }
 
 .right-content input[type="email"]::placeholder {
@@ -69,6 +78,7 @@
   border-radius: 62px;
   font-size: 16px;
   padding: 10px 10px 10px 40px;
+  box-sizing: border-box; 
 }
 
 .right-content button {
